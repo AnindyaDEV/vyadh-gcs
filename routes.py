@@ -329,14 +329,14 @@ def stop():
         return Response(wheels(' '))
 
 
-@app.route('/partialL')
-def partialLeft():
-        return Response(wheels('q'))
+# @app.route('/partialL')
+# def partialLeft():
+#         return Response(wheels('q'))
 
 
-@app.route('/partialR')
-def partialRight():
-        return Response(wheels('e'))
+# @app.route('/partialR')
+# def partialRight():
+#         return Response(wheels('e'))
 
 # @app.route('/anticlock360L')
 # def Rotate360L():
@@ -398,25 +398,25 @@ def arm(var):
 @app.route('/la1-forward')    
 def la1f():
 
-        return Response(arm('W'))
+        return Response(arm('O'))
 
 
 @app.route('/la1-backward')
 def la1b():
 
-        return Response(arm('S'))
+        return Response(arm('P'))
 
 
 @app.route('/la2-forward')
 def la2f():
 
-        return Response(arm('A'))
+        return Response(arm('K'))
 
 
 @app.route('/la2-backward')
 def la2b():
 
-        return Response(arm('D'))
+        return Response(arm('L'))
 
 
 @app.route('/tt-right')
@@ -461,10 +461,10 @@ def wrtdown():
         return Response(arm('G'))
 
 
-@app.route('/stop-grip')
-def stopg():
+# @app.route('/stop-grip')
+# def stopg():
 
-        return Response(arm('Z'))
+#         return Response(arm('Z'))
 
 
 @app.route('/grip-rotate-right')
@@ -477,10 +477,10 @@ def griprotl():
 
         return Response(arm('V'))
     
-@app.route('/stop-tt-rotate')
-def stopttrot():
+# @app.route('/stop-tt-rotate')
+# def stopttrot():
 
-        return Response(arm('B'))
+#         return Response(arm('B'))
     
 
 ard = serial.Serial(port='COM10', baudrate=9600)

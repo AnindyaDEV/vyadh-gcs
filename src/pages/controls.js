@@ -379,7 +379,7 @@ const Controls = () => {
                   className="h-[70px] bg-steelblue-200 rounded-xl text-2xl-6 text-white font-red-hat-mono w-[130px] cursor-pointer hover:bg-deepskyblue"
                   onClick={Stop_la}
                 >
-                  STOP LA
+                  STOP
                 </button>
                 <button
                   className="h-[70px] bg-steelblue-200 rounded-xl text-2xl-6 text-white font-red-hat-mono w-[130px] cursor-pointer hover:bg-deepskyblue"
@@ -409,13 +409,6 @@ const Controls = () => {
 
                 <button
                   className="h-[70px] bg-steelblue-200 rounded-xl text-2xl-6 text-white font-red-hat-mono w-[130px] cursor-pointer hover:bg-deepskyblue"
-                  onClick={Stop_grip}
-                >
-                  STOP GRIP
-                </button>
-
-                <button
-                  className="h-[70px] bg-steelblue-200 rounded-xl text-2xl-6 text-white font-red-hat-mono w-[130px] cursor-pointer hover:bg-deepskyblue"
                   onClick={Grip_rot_right}
                 >
                   GRIP RIGHT
@@ -440,13 +433,6 @@ const Controls = () => {
                   onClick={TT_Left}
                 >
                   TT LEFT
-                </button>
-
-                <button
-                  className="h-[70px] bg-steelblue-200 rounded-xl text-2xl-6 text-white font-red-hat-mono w-[130px] cursor-pointer hover:bg-deepskyblue"
-                  onClick={Stop_tt_rotate}
-                >
-                  STOP TT ROTATE
                 </button>
               </div>
             </div>
